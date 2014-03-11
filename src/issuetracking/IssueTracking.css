@@ -8,8 +8,7 @@
 
 .descriptionValue:focused {
     -fx-background-color: -fx-focus-color, transparent, white;
-} 
-
+}
 .descriptionValue:hover {
     -fx-background-color: -fx-focus-color, -fx-text-box-border, white;
 }
@@ -30,7 +29,7 @@
 
 .synopsisField:focused {
     -fx-background-color: -fx-focus-color, transparent, white;
-} 
+}
 
 
 
@@ -57,19 +56,19 @@
 .topRoundedAnchorPane {
     -fx-border-radius:10 10 0 0;
     -fx-border-color: #d6d6d6;
-    -fx-border-width: 0.083333em;	
+    -fx-border-width: 0.083333em;
 }
 
 .statusAnchorPane {
-    -fx-border-color: #d6d6d6;	
+    -fx-border-color: #d6d6d6;
     -fx-border-width: 0.083333em;
 }
 
 .bottomRoundedAnchorPane {
     -fx-border-radius:0 0 10 10;
-    -fx-border-color: #d6d6d6;	
+    -fx-border-color: #d6d6d6;
     -fx-border-width: 0.083333em;
-} 
+}
 
 
 
@@ -122,7 +121,7 @@
 .roundedButton {
 	-fx-background-radius: 12;
 	-fx-font: 1em "Arial";
-	-fx-padding: 0 0 0 0;	
+    -fx-padding: 0 0 0 0;
 	-fx-shadow-highlight-color: f0f0f0;
 	-fx-body-color: linear-gradient(from 0em 0em to 0em 2.083333em, white, #D7D7D7, white);
 }
