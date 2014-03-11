@@ -13,7 +13,7 @@
 <AnchorPane id="AnchorPane" minWidth="400.0" prefHeight="600.0" prefWidth="800.0" styleClass="background"
             xmlns:fx="http://javafx.com/fxml" fx:controller="issuetracking.IssueTrackingController">
     <stylesheets>
-        <URL  value="@IssueTracking.css"/>
+        <URL value="@IssueTracking.css"/>
     </stylesheets>
     <SplitPane id="Split Pane (Vertical Splits)" dividerPositions="0.23661270236612703" focusTraversable="true"
                minHeight="550.0" minWidth="800.0" prefHeight="550.0" prefWidth="800.0" styleClass="vsplitpane"
@@ -157,8 +157,6 @@
                 <ColumnConstraints hgrow="ALWAYS" minWidth="10.0"/>
                 <ColumnConstraints hgrow="NEVER" minWidth="10.0"/>
             </columnConstraints>
-
-
             <rowConstraints>
                 <RowConstraints minHeight="10.0" vgrow="SOMETIMES"/>
             </rowConstraints>
